@@ -1,0 +1,137 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8; /* Fondo suave gris claro */
+    color: #34495e; /* Texto gris oscuro */
+    padding: 0 10px; /* Espaciado lateral */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Cabecera */
+header {
+    background-color: #2c3e50; /* Azul oscuro */
+    color: #fff; /* Blanco para el texto */
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff; /* Blanco */
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.blog-posts {
+    width: 70%;
+}
+
+.blog-posts article {
+    background-color: #ffffff; /* Blanco para las publicaciones */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-posts h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.blog-posts .date {
+    font-size: 0.9rem;
+    color: #7f8c8d; /* Gris suave para la fecha */
+    margin-bottom: 10px;
+}
+
+.blog-posts a {
+    color: #3498db; /* Azul brillante */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blog-posts a:hover {
+    text-decoration: underline;
+}
+
+/* Barra lateral */
+.sidebar {
+    width: 25%;
+    background-color: #ffffff; /* Blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.sidebar p {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #34495e; /* Gris oscuro */
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    background-color: #2c3e50; /* Azul oscuro */
+    color: #fff; /* Blanco para el texto */
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
